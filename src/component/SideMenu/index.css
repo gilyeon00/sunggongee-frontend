@@ -1,0 +1,26 @@
+.side-menu{
+    position:fixed;
+    flex-direction: column;
+    left:0;
+    top:0;
+    display: flex;
+    padding: 10rem 0;
+    height: 100vh;
+    background-color:var(--color-main);
+}
+
+.side-btn{
+    padding: 1rem;
+    font-size: 0.4rem;
+    color:var(--color-white);
+    background-color:var(--color-main);
+}
+.side-btn:hover{
+    background-color: var(--color-sub1);
+}
+.side-icon{
+    display: block;
+    margin: auto;
+    font-size: 0.825rem;
+    padding-bottom: 0.3rem;
+}

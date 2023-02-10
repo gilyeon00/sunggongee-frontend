@@ -1,0 +1,14 @@
+.equip-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1060px;
+    margin: auto;
+    text-align: left;
+    padding-top: 8rem;
+    padding-left: 5rem;
+}
+
+.equip-list-title{
+    text-align: center;
+    margin-bottom: 24px;
+}

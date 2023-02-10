@@ -1,0 +1,58 @@
+.detail-img-box{
+    float: left;
+    margin-left: 3.5rem;
+    border-radius: 8px;
+    border: 0.7px solid var(--color-light-gray);
+    margin: 1rem 1rem;
+    align-items: center;
+    overflow: hidden;
+}
+.detail-img{
+    padding: 1.5rem;
+    width: 500px;
+    height: auto;
+}
+
+.lent-btn{
+    border: var(--color-main) solid 1px;
+    color: var(--color-black);
+    border-radius: 8px;
+    width: 13rem;
+    height: 3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.lent-btn:hover{
+    background-color: var(--color-main);
+    color: var(--color-white);
+}
+
+.detail-equip-title{
+    color: var(--color-dark-gray);
+    font-size: 3rem;
+}
+
+.detail-description{
+    color: var(--color-dark-gray);
+    display: flex;
+    margin: 0.8rem;
+}
+
+.detail-description, .detail-description-btn{
+    padding: 1.5rem;
+    float: right;
+}
+
+.detail-price{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:680px) {
+    .detail-img-box, .detail-img{ 
+        flex:1 1 100%; 
+        max-width: 100%;
+    }
+}

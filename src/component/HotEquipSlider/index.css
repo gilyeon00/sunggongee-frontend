@@ -1,0 +1,16 @@
+.slider-title{
+    font-family: 'Caveat', cursive;
+    color: var(--color-main);
+}
+
+
+.slide-img{
+    width: 14rem;
+    height: 12rem;
+    object-fit: contain;
+}
+
+.swiper .swiper-pagination-bullet {
+    background-color: var(--color-main);
+    margin: 0 10px !important;
+  }

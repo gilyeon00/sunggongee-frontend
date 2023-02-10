@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+:root{
+  --color-main:rgb(94,210,243);
+  --color-sub1:rgb(94,198,243);
+  --color-dark-gray: #202020;
+  --color-gray:#303030;
+  --color-middle-gray:#606060;
+  --color-light-gray:#c0c0c0;
+  --color-white:#fff;
+}
+
+button{
+  border:none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+  
+.main-content{
+  margin-left: 4rem;
+  margin-top: 6rem;
+}
+
+.list{
+  padding:1.5rem;
+}
+.content{
+  display:flex;
+  margin-top: 2.7rem;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}

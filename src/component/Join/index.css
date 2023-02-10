@@ -1,0 +1,14 @@
+.userBirth input, .userBirth select{
+    width: 3.6rem;
+    border: none;
+    outline: none;
+}
+
+.userBirth{
+    text-align: center;
+    justify-content: center;
+}
+
+#user-month, #user-day{
+    width: 3rem;
+}
